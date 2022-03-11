@@ -48,8 +48,6 @@
 <label for="password" class="formulaire-label">mot de passe</label>
 <input type="password" class="formulaire-input" id="password" name="password" required>
 </div>
-</div>
-
 
 <!--creer un lien-->
 <a class="mdp" href="">mot de passe oublier?</a>
@@ -58,6 +56,9 @@
 <!--creer un bouton submit qui appelle le name -->
 <button type="submit" name="btnConnect"class="btn-connexion" class="mt-3 btn-warning">connexion</button>
 </div>
+</div>
+
+
 
 <?php
 //creer la method post pourb récuperer le bouton btnconnect
