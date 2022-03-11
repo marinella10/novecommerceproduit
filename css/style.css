@@ -12,13 +12,18 @@ h4{
     padding-top:40px;
 }
 
+.mdp{
+color:black;
+
+
+} 
 /*formulaire*/
 input#email.formulaire-input {
     border-radius: 20px;
     background-color:pink;
 }
 
-input#passeword.formulaire-input {
+input#password.formulaire-input {
     border-radius: 20px;
     background-color:rgb(245, 118, 1);
 
@@ -28,4 +33,8 @@ button.deconnexion {
     border-radius:20px;
     background-color:yellow;
 
+}
+
+button.btn-connexion{
+    border-radius: 10px;
 }

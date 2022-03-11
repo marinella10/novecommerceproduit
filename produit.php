@@ -154,7 +154,8 @@ if ($dbh){
                     <div class="container-fluid d-flex justify-content-center py-3">
 
                    <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-success">Détails</a>
-                   <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-warning">Editer</a>
+                   <
+                       ="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-warning">Editer</>
                    <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-danger">Supprimer</a>
 
                     </div>

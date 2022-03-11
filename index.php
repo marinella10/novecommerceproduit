@@ -22,9 +22,14 @@
 
 
 
+<div class="text-center">
+<h1> SITE ECOMMERCE DE MARINE</h1>
+</div>
 
+<div class="text-center">
+    <img src="../" alt="logo e-commerce" title="e-commerce">
 
-
+</div>
 
 
 <!-- ajouter un formulaire html avec la method post-->
@@ -33,10 +38,6 @@
 <form id="formulaire-connexion" method="post">
 
 
-<div class="text-center">
-    <img src="" alt="logo e-commerce" title="e-commerce">
-
-</div>
 
 <div class="mb-3">
 <label for="email" class="formulaire-label">Email</label>
@@ -50,7 +51,7 @@
 
 
 <!--creer un lien-->
-<a href="">mot de pass oublier?</a>
+<a class="mdp" href="">mot de passe oublier?</a>
 <br/>
 
 
