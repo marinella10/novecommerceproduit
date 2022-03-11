@@ -27,7 +27,7 @@
 </div>
 
 <div class="text-center">
-    <img src="../" alt="logo e-commerce" title="e-commerce">
+    <img src="image/imageslogoe.jpg" alt="logo e-commerce" title="e-commerce">
 
 </div>
 
