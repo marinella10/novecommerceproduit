@@ -1,0 +1,197 @@
+@font-face {
+	font-family: "icons";
+	src: url('/fonts/icons.eot');
+	src: url('/fonts/icons.eot?#iefix') format('eot'),
+		url('/fonts/icons.woff') format('woff'),
+		url('/fonts/icons.ttf') format('truetype'),
+		url('/fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-arrow-down:before {
+	content: "\E001";
+}
+
+.icon-arrow-left:before {
+	content: "\E002";
+}
+
+.icon-arrow-right:before {
+	content: "\E003";
+}
+
+.icon-arrow-top:before {
+	content: "\E004";
+}
+
+.icon-basket:before {
+	content: "\E005";
+}
+
+.icon-blog-black:before {
+	content: "\E006";
+}
+
+.icon-blog-grey:before {
+	content: "\E007";
+}
+
+.icon-blog-v3:before {
+	content: "\E008";
+}
+
+.icon-blog-white:before {
+	content: "\E009";
+}
+
+.icon-burger:before {
+	content: "\E00A";
+}
+
+.icon-calendar-tool:before {
+	content: "\E00B";
+}
+
+.icon-car:before {
+	content: "\E00C";
+}
+
+.icon-close:before {
+	content: "\E00D";
+}
+
+.icon-compass:before {
+	content: "\E00E";
+}
+
+.icon-edit:before {
+	content: "\E00F";
+}
+
+.icon-error:before {
+	content: "\E010";
+}
+
+.icon-fleche-big-left:before {
+	content: "\E011";
+}
+
+.icon-fleche-big-right:before {
+	content: "\E012";
+}
+
+.icon-fleche-down:before {
+	content: "\E013";
+}
+
+.icon-fleche-left:before {
+	content: "\E014";
+}
+
+.icon-fleche-right:before {
+	content: "\E015";
+}
+
+.icon-fleche-top:before {
+	content: "\E016";
+}
+
+.icon-geoloc:before {
+	content: "\E017";
+}
+
+.icon-goright:before {
+	content: "\E018";
+}
+
+.icon-home-solid:before {
+	content: "\E019";
+}
+
+.icon-horloge:before {
+	content: "\E01A";
+}
+
+.icon-infos:before {
+	content: "\E01B";
+}
+
+.icon-insta-fa:before {
+	content: "\E01C";
+}
+
+.icon-job-case:before {
+	content: "\E01D";
+}
+
+.icon-job-location:before {
+	content: "\E01E";
+}
+
+.icon-liste:before {
+	content: "\E01F";
+}
+
+.icon-logo-blog-v2:before {
+	content: "\E020";
+}
+
+.icon-loupe:before {
+	content: "\E021";
+}
+
+.icon-map-dispo:before {
+	content: "\E022";
+}
+
+.icon-ok:before {
+	content: "\E023";
+}
+
+.icon-phone:before {
+	content: "\E024";
+}
+
+.icon-photo:before {
+	content: "\E025";
+}
+
+.icon-radio-on:before {
+	content: "\E026";
+}
+
+.icon-search:before {
+	content: "\E027";
+}
+
+.icon-sorry:before {
+	content: "\E028";
+}
+
+.icon-telephone:before {
+	content: "\E029";
+}
+
+.icon-user:before {
+	content: "\E02A";
+}
+
+.icon-video:before {
+	content: "\E02B";
+}
+
+.icon-vignette:before {
+	content: "\E02C";
+}

@@ -1,0 +1,2477 @@
+<!doctype html>
+<html lang="fr-CA">
+	<head>
+		
+
+
+<style>
+    html.aem-AuthorLayer-Preview .newpar,
+    html.aem-AuthorLayer-Preview .wcm-edit,
+    html.aem-AuthorLayer-Edit .wcm-preview,
+    cq {
+        display: none;
+    }
+</style>
+
+
+
+
+		
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		
+		<script>
+			window["adrum-app-key"] = "AD-AAB-AAD-KWJ";
+			window["adrum-start-time"] = new Date().getTime();
+			(function(config){
+			   config.fetch = false;
+			})(window['adrum-config'] || (window['adrum-config'] = {}));
+		</script>
+		<script>
+			const cookies = document.cookie.split('; ').reduce((cookiesObj, cookie) => {
+				const name = cookie.substr(0, cookie.indexOf('='));
+				const value = cookie.substr(cookie.indexOf('=') + 1);
+				return cookiesObj[name] = value, cookiesObj;
+			}, {});
+
+			if (!cookies.OptanonConsent || cookies.OptanonConsent.includes('C0002%3A1')) {
+				const scriptTag = document.createElement('script');
+				scriptTag.src = 'https://cdn.appdynamics.com/adrum/adrum-latest.js';
+				document.head.appendChild(scriptTag);
+			}
+		</script>
+		
+		
+		
+		<title>Comparer les consoles – Nintendo Switch – Consoles de jeu - Nintendo - Site officiel</title>
+		<meta name="description" content="Comparez les spécifications techniques et d’autres caractéristiques des consoles Nintendo Switch™ – Modèle OLED, Nintendo Switch, et Nintendo Switch Lite."/>
+		
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" name="twitter:title" content="Comparer les consoles – Nintendo Switch – Consoles de jeu - Nintendo - Site officiel"/>
+		<meta property="og:description" name="twitter:description" content="Comparez les spécifications techniques et d’autres caractéristiques des consoles Nintendo Switch™ – Modèle OLED, Nintendo Switch, et Nintendo Switch Lite."/>
+		<meta property="og:image" name="twitter:image" content="https://www.nintendo.com/apps/noa/images/social-share.jpg"/>
+		<meta property="og:site_name" content="Nintendo"/>
+		<meta property="fb:app_id" content="549513175162968"/>
+		<meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:site" content="@nintendoamerica"/>
+		
+		<meta name="google-site-verification" content="lcC2m3GxLFXRpw4s4cKbn8Q6jDs8zHPXp9CC1xHn70c"/>
+		<meta name="msvalidate.01" content="CD9A42A71E67EDC970DE6AD9919B5D79"/>
+		<meta name="p:domain_verify" content="5acad0d13ae7c1954a606b71572e61ea"/>
+		
+		
+	<link rel="icon" href="/apps/noa/images/favicon.ico?v=2022022320"/>
+
+		
+	<link rel="apple-touch-icon" href="/apps/noa/images/apple-touch-icon.png?v=2022022320"/>
+
+		
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/wyv1nqp.css?v=2022022320"/>
+
+	
+	<link rel="stylesheet" href="https://media.nintendo.com/share/nclood/stable/fr-ca/bundles/all.css?v=2022022320"/>
+
+	
+	<link rel="stylesheet" href="/apps/noa/styles/global.css?v=2022022320"/>
+
+
+		
+	
+	
+	
+	
+
+		
+	</head>
+	
+	<body style="opacity: 1 !important">
+		<header id="header" aria-label="Global Navigation">
+			
+			
+			
+			
+		</header>
+		<main id="main" data-locale="fr-CA">
+			
+			
+			
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-0 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-943559148" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone-943559148"] {
+            --button-label-text-align: center;
+        }
+    </style>
+    
+    
+    <style>
+        @media screen and (max-width: 768px) {
+            [data-component-name="ThemeSongZone-943559148"] {
+                --button-label-text-align: left;
+            }
+        }
+    </style>
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <header class="deluxe-secondary-nav">
+
+
+
+
+
+
+<div class="async fade-in pin padding-0-pinned pin-logo" data-stylesheet="/apps/noa/components/modular/deluxe-secondary-nav/deluxe-secondary-nav.css?v=2022022320" data-script="/apps/noa/components/modular/deluxe-secondary-nav/deluxe-secondary-nav.js?v=2022022320" style="--custom-secondary-nav__background: rgba(255,255,255,0); --custom-secondary-nav__pinned_background: rgba(255,255,255,0.9); --custom-secondary-nav__header_font: museo-sans, sans-serif; --custom-secondary-nav__link_text-color_hover: #e60012; --custom-secondary-nav__unpinned-logo_transform: scale(1,1) translate(0,0); --custom-secondary-nav__mobile-dropdown_background-color: #ffffff; --custom-secondary-nav__mobile-dropdown_border-color: #C8C8C8">
+    <div class="constrained flex align-items-center justify-content-space-between">
+        <div class="logo-holder">
+            <a class="logo-link" href="/fr_CA/switch/" aria-label="Nintendo Switch">
+                <img src="https://assets.nintendo.com/image/upload/f_auto,q_auto/Dev/aem-component-demo/switch-logo-large?v=2022022320" alt="Nintendo Switch" class="logo-desktop"/>
+                <img src="https://assets.nintendo.com/image/upload/f_auto,q_auto/Dev/aem-component-demo/switch-logo-small?v=2022022320" alt="Nintendo Switch" class="logo-pinned"/>
+                        
+            </a>
+        </div>
+        <div class="links-holder">
+            <nav class="secondary-nav flex justify-content-end align-items-center direction-column-tab-sm">
+                <button class="nav-toggle" title="Comparer">
+                    
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link" icon="down">
+		<span slot="label">Comparer</span>
+		
+	</styled-button>
+  
+                </button>
+                <ul class="secondary-nav-list flex direction-column-tab-sm">
+                    
+                        <li>
+                            <a href="/fr_CA/switch/oled-model/" title="Nintendo Switch – Modèle&amp;nbsp;OLED" data-metric="{ eVars: { 39: &#39;nav:Nintendo Switch – Modèle&amp;nbsp;OLED&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Nintendo Switch – Modèle OLED</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/fr_CA/switch/system/" title="Nintendo Switch" data-metric="{ eVars: { 39: &#39;nav:Nintendo Switch&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Nintendo Switch</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/fr_CA/switch/lite/" title="Nintendo Switch Lite" data-metric="{ eVars: { 39: &#39;nav:Nintendo Switch Lite&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Nintendo Switch Lite</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/fr_CA/switch/online-service/" title="Nintendo Switch Online" data-metric="{ eVars: { 39: &#39;nav:Nintendo Switch Online&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Nintendo Switch Online</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/fr-ca/store/hardware/systems/" title="Acheter dès maintenant" data-metric="{ eVars: { 39: &#39;nav:Acheter dès maintenant&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Acheter dès maintenant</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                        <li class="active here">
+                            <a href="/fr_CA/switch/compare/" title="Comparer" data-metric="{ eVars: { 39: &#39;nav:Comparer&#39; }, events: [53] }">
+                                
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link">
+		<span slot="label">Comparer</span>
+		
+	</styled-button>
+  
+                            </a>
+                        </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+</div>
+<div class="pin-spacer"></div></header>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    
+
+    
+    
+    <div class="graphic">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/graphic/graphic.css?v=2022022320" class="async  content-wrapper-standard constrained">
+    <img src='https://assets.nintendo.com/image/upload/f_auto,h_662,q_auto,w_1178/ncom/en_US/switch/site-design-update/compare/compare-hero-fr?v=2022022320' alt='' class='media responsive' height='662' loading='lazy' role='presentation' sizes='(max-width: 428px) 428px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 1178px' srcset='https://assets.nintendo.com/image/upload/f_auto,h_241,q_auto,w_428/ncom/en_US/switch/site-design-update/compare/compare-hero-fr 428w, https://assets.nintendo.com/image/upload/f_auto,h_432,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/compare-hero-fr 768w, https://assets.nintendo.com/image/upload/f_auto,h_575,q_auto,w_1024/ncom/en_US/switch/site-design-update/compare/compare-hero-fr 1024w, https://assets.nintendo.com/image/upload/f_auto,h_809,q_auto,w_1440/ncom/en_US/switch/site-design-update/compare/compare-hero-fr 1440w, https://assets.nintendo.com/image/upload/f_auto,h_662,q_auto,w_1178/ncom/en_US/switch/site-design-update/compare/compare-hero-fr?v=2022022320 1178w' width='1178'/>
+</div>
+</div>
+
+
+    
+    
+    <div class="deluxe-header">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/deluxe-header/deluxe-header.css?v=2022022320" class="async content-wrapper-standard constrained">
+
+    
+    
+    
+    
+
+    
+   
+	
+	
+	<nin-deluxe-header class="async fade-in" data-script="https://code.nintendo.com/web-components/nin-deluxe-header/nin-deluxe-header.js?v=2022022320" style="--custom-deluxe-header__h_color: #e60012" width-breakpoint="mobile" alignment="left">
+		 
+		<h1>Comparez les consoles</h1>
+
+    </nin-deluxe-header>
+
+</div></div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark constrained async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">Découvrez plus sur les consoles Nintendo Switch et Nintendo Switch Lite pour voir celle qui vous convient.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--2059690188" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone--2059690188"] {
+            --nin-deluxe-header__max-width: 100%;
+--nin-deluxe-header__min-height: 0;
+        }
+    </style>
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-1100741223" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px" id="hardware-grid">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 19fr 27fr 27fr 27fr; --column-ratios-laptop: 19fr 27fr 27fr 27fr; --column-ratios-tablet: 19fr 27fr 27fr 27fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 align-items-end constrained padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="grid-spacer"><div style="width: 0px; height: 0px;"></div></div>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 1fr 1fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="02e66773-4866-3036-a6da-2ce8336fecb6" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/compare-oled-model?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/compare-oled-model?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p style="text-align: center;"><span class="h4">Nintendo Switch – Modèle OLED</span></p>
+<p style="text-align: center;">449,99 $ <sup>PDSF*</sup></p>
+<hr style="background-color: rgb(230,0,18);height: 5.0px;width: 100.0%;border: none;" />
+
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 1fr 1fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="4ef31e62-0077-3eed-ba27-5e3ec2afbee3" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/compare-system?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/compare-system?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p style="text-align: center;"><span class="h3">Nintendo Switch</span></p>
+<p style="text-align: center;">379,99 $ <sup>PDSF*</sup><br />
+</p>
+<hr style="background-color: rgb(230,0,18);height: 5.0px;width: 100.0%;border: none;" />
+
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 1fr 1fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="ba7c5ca5-c317-3591-b7c3-8f778eec2bdf" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/switch-lite?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/switch-lite?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p style="text-align: center;"><span class="h3">Nintendo Switch Lite</span></p>
+<p style="text-align: center;">259,99 $ <sup>PDSF*</sup></p>
+<hr style="background-color: rgb(230,0,18);height: 5.0px;width: 100.0%;border: none;" />
+
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 19fr 81fr; --column-ratios-laptop: 19fr 81fr; --column-ratios-tablet: 19fr 81fr; --column-ratios-tablet-small: 1fr; --column-ratios-mobile: 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-2 gap-col-2 constrained padding-y-2">
+        
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-1030490296" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone-1030490296"] {
+            height: 100%
+        }
+    </style>
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Modes de jeu</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr><td><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/tv-mode-icon.svg" height="35" width="100" alt=""/></p>
+<p style="text-align: center;">Mode téléviseur</p>
+</td>
+</tr><tr><td style="width: 100.0%;margin-top: 1.0em;"><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/tabletop-icon.svg" style="margin-top: 1.0em;" height="35" width="100" alt=""/></p>
+<p style="text-align: center;">Mode sur table</p>
+</td>
+</tr><tr><td><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/integrated-handheld-icon.svg" style="margin-top: 1.0em;" height="35" alt=""/></p>
+<p style="text-align: center;">Mode portable</p>
+</td>
+</tr></tbody></table>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr><td><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/tv-mode-icon.svg" height="35" width="100" alt=""/></p>
+<p style="text-align: center;">Mode téléviseur</p>
+</td>
+</tr><tr><td style="width: 100.0%;margin-top: 1.0em;"><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/tabletop-icon.svg" style="margin-top: 1.0em;" height="35" width="100" alt=""/></p>
+<p style="text-align: center;">Mode sur table</p>
+</td>
+</tr><tr><td><p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/integrated-handheld-icon.svg" style="margin-top: 1.0em;" height="35" alt=""/></p>
+<p style="text-align: center;">Mode portable</p>
+</td>
+</tr></tbody></table>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p style="text-align: center;"><img src="https://assets.nintendo.com/image/upload/v1625346646/ncom/en_US/switch/compare/integrated-handheld-icon.svg" style="margin-top: 1.0em;" height="35" alt=""/></p>
+<p style="text-align: center;">Mode portable</p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-742265500" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Jeux compatibles</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p style="text-align: center;">Tous les jeux** Nintendo Switch</p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p style="text-align: center;">Tous les jeux Nintendo Switch</p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p>Les jeux Nintendo Switch compatibles avec le mode portable*. <a href="#game-compatibility-lite">Voir les détails ci-dessous ▾</a></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-498282896" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr; --column-ratios-laptop: 1fr; --column-ratios-tablet: 1fr; --column-ratios-tablet-small: 1fr 3fr; --column-ratios-mobile: 1fr 3fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-2 gap-col-1 align-items-center justify-items-center padding-y-0">
+        
+
+
+
+
+    
+    
+    <div class="graphic">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/graphic/graphic.css?v=2022022320" class="async  ">
+    <img src='https://assets.nintendo.com/image/upload/f_auto,h_173,q_auto,w_140/ncom/en_US/switch/compare/joycon?v=2022022320' alt='' class='media responsive' height='173' loading='lazy' role='presentation' sizes='(max-width: 428px) 428px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 140px' srcset='https://assets.nintendo.com/image/upload/f_auto,h_529,q_auto,w_428/ncom/en_US/switch/compare/joycon 428w, https://assets.nintendo.com/image/upload/f_auto,h_949,q_auto,w_768/ncom/en_US/switch/compare/joycon 768w, https://assets.nintendo.com/image/upload/f_auto,h_1265,q_auto,w_1024/ncom/en_US/switch/compare/joycon 1024w, https://assets.nintendo.com/image/upload/f_auto,h_1779,q_auto,w_1440/ncom/en_US/switch/compare/joycon 1440w, https://assets.nintendo.com/image/upload/f_auto,h_173,q_auto,w_140/ncom/en_US/switch/compare/joycon?v=2022022320 140w' width='140'/>
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Manettes Joy-Con</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async " data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--2074979135">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-1 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Offerte avec une paire de manettes Joy-Con</b></p>
+
+</div>
+</div>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 2em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="7d3d4627-a951-3dab-bac1-b14f50ea35a1" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="false" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>Manettes Joy-Con inclus les vibrations HD et la caméra infrarouge à détecteur de mouvements</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async " data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-79881267">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-1 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Offerte avec une paire de manettes Joy-Con</b></p>
+
+</div>
+</div>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 2em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="2d809dc3-c73e-3655-b2c0-013dad3b82c4" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="false" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>Manettes Joy-Con inclus les vibrations HD et la caméra infrarouge à détecteur de mouvements</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async " data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--2098186724">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-1 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Manettes Joy-Con vendues séparément.</b></p>
+
+</div>
+</div>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 2em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="f057a1af-2f82-320e-a72e-0af11ec89ed7" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/cancel-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/cancel-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="false" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>La console n’offre pas les vibrations HD et la caméra infrarouge à détecteur de mouvements</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></section>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-1260676037" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr; --column-ratios-laptop: 1fr; --column-ratios-tablet: 1fr; --column-ratios-tablet-small: 1fr 3fr; --column-ratios-mobile: 1fr 3fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-2 gap-col-1 align-items-center justify-items-center padding-y-0">
+        
+
+
+
+
+    
+    
+    <div class="graphic">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/graphic/graphic.css?v=2022022320" class="async  ">
+    <img src='https://assets.nintendo.com/image/upload/f_auto,h_144,q_auto,w_240/ncom/en_US/switch/compare/dock?v=2022022320' alt='' class='media responsive' height='144' loading='lazy' role='presentation' sizes='(max-width: 428px) 428px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1440px) 1440px, 240px' srcset='https://assets.nintendo.com/image/upload/f_auto,h_257,q_auto,w_428/ncom/en_US/switch/compare/dock 428w, https://assets.nintendo.com/image/upload/f_auto,h_461,q_auto,w_768/ncom/en_US/switch/compare/dock 768w, https://assets.nintendo.com/image/upload/f_auto,h_614,q_auto,w_1024/ncom/en_US/switch/compare/dock 1024w, https://assets.nintendo.com/image/upload/f_auto,h_864,q_auto,w_1440/ncom/en_US/switch/compare/dock 1440w, https://assets.nintendo.com/image/upload/f_auto,h_144,q_auto,w_240/ncom/en_US/switch/compare/dock?v=2022022320 240w' width='240'/>
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Station d’accueil Nintendo Switch</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="4d84d4a7-99bb-3d6c-9537-c67373c47fb6" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="true" copy-side="right" align-image="start" video-inline="false" video-type="default">
+		
+			
+			
+				<p>Inclut une station d’accueil Nintendo Switch et un câble HDMI. Placer la console dans la station d’accueil permet au signal vidéo d’apparaître sur un téléviseur. La station d’accueil comprend également un port Ethernet intégré .</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="8c340ad4-7735-30bf-b437-5b07ad1390fd" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/check-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="true" copy-side="right" align-image="start" video-inline="false" video-type="default">
+		
+			
+			
+				<p>Inclus une station d’accueil Nintendo Switch et un câble HDMI. Placer la console dans la station d’accueil permet au signal vidéo d’apparaître sur un téléviseur.</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 2em; --column-ratio: 20fr 80fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="6525c3a7-df31-3780-819d-04f0169a49ac" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/cancel-icon?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/cancel-icon?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="false" responsive="true" copy-side="right" align-image="start" video-inline="false" video-type="default">
+		
+			
+			
+				<p>N’est pas compatible avec la station d’accueil Nintendo Switch et ne permet pas l’affichage sur un écran de téléviseur. N’est donc pas offerte avec une station d’accueil, un câble HDMI ou un support.</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--1967555515" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone--1967555515"] {
+            height: 100%
+        }
+    </style>
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Dimensions</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 10fr 90fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="83b07bc7-e138-3afd-bada-b96910ab9c57" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-oled?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-oled?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>10,16 cm (4 po) de hauteur, 24.13 cm (9,5 po) de longueur, 1.4 cm (0,55 po) de profondeur (avec les manettes Joy-Con attachées)</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 10fr 90fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="9cd19b0b-1426-3b11-9ec5-270a141ce15a" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-system?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-system?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>10,16 cm (4 po) de hauteur, 23,87 cm (9,4 po) de longueur, 1,39 cm (0,55 po) de profondeur (avec les manettes Joy-Con attachées)</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-0" style="--nin-story-module__grid-gap: 1em; --column-ratio: 10fr 90fr; --module-padding: 0em; --description-padding: 0em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="e1a2e74e-7c5a-3b2b-9124-27c576af6869" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-lite?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/dimensions-lite?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" stacked="true" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<p>9,14 cm (3,6 po) de hauteur, 20,83 cm (8.2 po) de longueur, 1,39 cm (0,55 po) de profondeur)</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-668064979" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Poids</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Approx. 0,42 kg (0,93 lb)</b></p>
+<p>avec les manettes Joy-Con attachées</p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>0,39 kg (0,88 lb)</b></p>
+<p>avec les manettes Joy-Con attachées</p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>0,28 kg (0,61 lb)</b></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--894071882" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Écran</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Écran tactile OLED de 17,78 cm (7 po)</b></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Écran tactile LCD de 15,74 cm (6.2 po)</b></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><b>Écran tactile LCD de 13,97 cm (5,5 po)</b></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--185953478" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Stockage de</span></h2>
+<h2 style="text-align: center;"><span class="h3">données</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">64 Go</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">32 Go</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">32 Go</span></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-2" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone-686714497" style="border-style: none; border-width: 0px; background: #eaeaea; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone-686714497"] {
+            height: 100%
+        }
+    </style>
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark async fade-in">
+
+    
+    
+    
+    
+
+    <h2 style="text-align: center;"><span class="h3">Autonomie de la batterie</span></h2>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr 1fr 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">Numéro de modèle : HEG-001</span></p>
+<p>Approx. 4,5 à 9 heures</p>
+<p><span class="legal">*L’autonomie de la batterie dépend des jeux auxquels vous jouez. Par exemple, vous pouvez jouer au jeu The Legend of Zelda™: Breath of the Wild pendant environ 5.5 heures en une seule recharge.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">Numéro de modèle : HAC-001(-01)</span></p>
+<p>Approx. 4,5 à 9 heures</p>
+<p><span class="legal">*La durée de la batterie dépend du jeu utilisé. Par exemple, la durée de la batterie est d'environ 5,5 heures de jeu consécutif pour le jeu The Legend of Zelda: Breath of the Wild.</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 dark async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h3">Numéro de modèle : HDH-001</span></p>
+<p>Approx. 3 à 7 heures</p>
+<p><span class="legal">*La durée de la batterie dépend du jeu utilisé. Par exemple, la durée de la batterie est d'environ 4 heures de jeu consécutif pour le jeu The Legend of Zelda: Breath of the Wild.</span></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-2 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--457555643" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 0px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="deluxe-header">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/deluxe-header/deluxe-header.css?v=2022022320" class="async content-wrapper-standard constrained">
+
+    
+    
+    
+    
+
+    
+   
+	
+	
+	<nin-deluxe-header class="async fade-in" data-script="https://code.nintendo.com/web-components/nin-deluxe-header/nin-deluxe-header.js?v=2022022320" width-breakpoint="mobile" alignment="left">
+		 
+		<h2 style="text-align: center;">Compatibilté avec les jeux</h2>
+
+    </nin-deluxe-header>
+
+</div></div>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-2" style="--nin-story-module__grid-gap: 1em; --column-ratio: 1fr 2fr; --module-padding: 0em; --description-padding: 1em; --custom-story-module__button_border-radius: 5px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	<style>
+		egdp-story-module#game-compatibility-oled-model{
+			--graphic-border-radius: 0;
+		}
+
+		@media screen and (max-width: 768px) { 
+			egdp-story-module#game-compatibility-oled-model{
+				
+			}
+		}
+	</style>
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="game-compatibility-oled-model" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/oled_compatibility?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/site-design-update/compare/oled_compatibility?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" color-border="#e60012" stacked="false" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<h3>Nintendo Switch – Modèle OLED</h3>
+<p>**Nintendo Switch – Modèle OLED est compatible avec la collection entière de jeux Nintendo Switch. Cependant, la console n’est pas tout à fait conforme aux paramètres de conception de la série Nintendo Labo. Il est également possible qu’à cause des nouvelles capacités de la console, telles que la plus grande taille de l’écran, l’expérience de jeu puisse différer dans certains jeux.</p>
+<p>Pour plus d’informations, veuillez visiter <a href="https://fr-americas-support.nintendo.com/app/answers/detail/a_id/46259/" target="_blank">support.nintendo.com</a>.</p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <section class="story-module">
+
+
+
+
+<div class="async constrained margin-y-2" style="--nin-story-module__grid-gap: 1em; --column-ratio: 1fr 2fr; --module-padding: 0em; --description-padding: 1em; --custom-story-module__button_border-radius: 0px" data-stylesheet="/apps/noa/components/modular/story-module/story-module.css?v=2022022320">
+	
+	
+	
+	
+	<style>
+		egdp-story-module#game-compatibility-lite{
+			--graphic-border-radius: 0;
+		}
+
+		@media screen and (max-width: 768px) { 
+			egdp-story-module#game-compatibility-lite{
+				
+			}
+		}
+	</style>
+	
+	
+	<egdp-story-module class="async fade-in lazy dark-text" data-script="https://code.nintendo.com/web-components/egdp-story-module/egdp-story-module.js?v=2022022320" id="game-compatibility-lite" type="a" content-width="1180px" image-src="https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/integrated-and-lite?v=2022022320" background-src="url(&#39;https://assets.nintendo.com/image/upload/c_pad,f_auto,q_auto,w_768/ncom/en_US/switch/compare/integrated-and-lite?v=2022022320&#39;)" background-style="cover" background-color="transparent" background-position="center center" color-border="#e60012" stacked="false" responsive="true" copy-side="right" align-image="center" video-inline="false" video-type="default">
+		
+			
+			
+				<h3><b>Nintendo Switch Lite</b></h3>
+<p>Les jeux de la librairie Nintendo Switch qui supportent le mode portable peuvent être joués sur la Nintendo Switch Lite.</p>
+<p>Pour les jeux qui ne sont pas compatibles avec le mode portable, les joueurs peuvent connecter des manettes compatibles (vendues séparément) à la Nintendo Switch Lite. Si des manettes Joy-Con sont utilisées, les utilisateurs auront besoin d’un chargeur pour les recharger, tel que le support de recharge Joy-Con.</p>
+<p>Pour des informations sur la compatibilité du mode jeu, veuillez vous référer à l’emballage du produit ou visitez Nintendo eShop.</p>
+<p>Cherchez l’icône « mode portable ».  <img src="https://www.nintendo.com/content/dam/noa/en_US/images/switch/compare/integrated-handheld.svg" alt=""/></p>
+
+			 
+			 
+			
+			
+		
+	</egdp-story-module>
+
+</div></section>
+
+
+    
+    
+    <div class="experiencefragment">
+
+    
+    
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-2 outdent-x-0 padding-y-2 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--1724065389" style="border-style: none; border-width: 0px; background: #e60012; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    
+    
+    
+    
+    
+    <div class="constrained">
+        
+
+
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 29fr 71fr; --column-ratios-laptop: 29fr 71fr; --column-ratios-tablet: 29fr 71fr; --column-ratios-tablet-small: 1fr; --column-ratios-mobile: 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-2 align-items-center justify-items-center constrained padding-y-2">
+        
+
+
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-0 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--630360820" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_text-color: #ffffff; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_text-color: #ffffff; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__link_text-color: #ffffff; --theme-song-zone__link_text-color_hover: #ffffff; --theme-song-zone__button_text-color: #ffffff; --theme-song-zone__button_border-radius: 5px; --theme-song-zone__ui-color: #ffffff; --theme-song-zone__ui-color_hover: #ffffff">
+    
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-0 light async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="h4">Famille Nintendo Switch</span></p>
+<p><span class="h2">Trois façons de jouer</span></p>
+
+</div>
+</div>
+
+
+    
+    
+    <div class="deluxe-divider">
+
+<div>
+    
+	<nin-deluxe-divider class="async fade-in lazy" data-script="https://code.nintendo.com/web-components/nin-deluxe-divider/nin-deluxe-divider.js?v=2022022320" margin="0.5rem 0 1rem 0" color="#ffffff" appearance="solid" height="2px"></nin-deluxe-divider>
+
+</div>
+
+</div>
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/compare/" aria-label="Ouvrir un tableau de caractéristiques pour les trois consoles Nintendo Switch" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 53: 'Comparer les caractéristiques'}, events: [39] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="link" icon="chevron">
+		<span slot="label">Comparer les caractéristiques</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <section class="theme-song-zone">
+
+
+
+
+
+
+
+
+<div class="zone-background async margin-y-0 outdent-x-0 padding-y-0 padding-x-0" data-stylesheet="/apps/noa/components/modular/theme-song-zone/theme-song-zone.css?v=2022022320" data-script="/apps/noa/components/modular/theme-song-zone/theme-song-zone.js?v=2022022320" data-component-name="ThemeSongZone--1620030674" style="border-style: none; border-width: 0px; background: transparent; --theme-song-zone__asset_border-style: none; --theme-song-zone__asset_border-width: 0px; --theme-song-zone__asset_border-radius: 5px; --theme-song-zone__header_font: museo-sans, sans-serif; --theme-song-zone__p_font: museo-sans, sans-serif; --theme-song-zone__button_border-radius: 5px">
+    <style>
+        [data-component-name="ThemeSongZone--1620030674"] {
+            --nin-theme-song__cta_font-size: 1rem;
+--white-space: normal;
+--label-gap: 0;
+--button-label-text-align: center;
+--tile-icon-gap: 1rem;
+--button-padding: 1rem;
+        }
+    </style>
+    
+    
+    
+    
+    <div>
+        
+
+
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr 1fr; --column-ratios-laptop: 1fr 1fr 1fr; --column-ratios-tablet: 1fr 1fr 1fr; --column-ratios-tablet-small: 1fr 1fr 1fr; --column-ratios-mobile: 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 padding-y-0">
+        
+
+
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/oled-model/" aria-label="Nintendo Switch – Modèle&amp;nbsp;OLED" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 53: 'Nintendo Switch – Modèle&nbsp;OLED'}, events: [39] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="button-tile" icon="none" tile-icon="https://assets.nintendo.com/image/upload/f_auto,q_auto/ncom/en_US/switch/site-design-update/common-promo-switch-oled-model?v=2022022320">
+		<span slot="label">Nintendo Switch – Modèle OLED</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/system/" aria-label="Nintendo Switch" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 53: 'Nintendo Switch'}, events: [39] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="button-tile" icon="none" tile-icon="https://assets.nintendo.com/image/upload/f_auto,q_auto/ncom/en_US/switch/site-design-update/common-promo-switch-system?v=2022022320">
+		<span slot="label">Nintendo Switch</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/lite/" aria-label="Nintendo Switch Lite" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 53: 'Nintendo Switch Lite'}, events: [39] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="button-tile" icon="none" tile-icon="https://assets.nintendo.com/image/upload/f_auto,q_auto/ncom/en_US/switch/site-design-update/common-promo-switch-lite?v=2022022320">
+		<span slot="label">Nintendo Switch Lite</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></section>
+
+
+
+    </div>
+</div></div>
+
+
+
+    </div>
+</div></section>
+
+
+
+</div>
+
+
+    
+    
+    <div class="grid-layout">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/grid-layout/grid-layout.css?v=2022022320" style="--column-ratios-desktop: 1fr 1fr; --column-ratios-laptop: 1fr 1fr; --column-ratios-tablet: 1fr 1fr; --column-ratios-tablet-small: 1fr; --column-ratios-mobile: 1fr" class="async fade-in">
+    <div class="grid custom-grid gap-row-1 gap-col-1 constrained padding-y-2">
+        
+
+
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/tech-specs/" aria-label=" Voir les spécifications complètes" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 39: 'switch: compare: tech specs': ' Voir les spécifications complètes'}, events: [53] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="button" icon="chevron">
+		<span slot="label"> Voir les spécifications complètes</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+    
+    
+    <div class="modular-styled-button">
+
+
+     <a href="/fr_CA/switch/faq/" aria-label=" Voir la FAQ" data-stylesheet="/apps/noa/components/modular/modular-styled-button/modular-styled-button.css?v=2022022320" data-metric="{ eVars: { 53: ' Voir la FAQ'}, events: [39] }" class="async width-full" target="_self">
+          
+	<styled-button class="async fade-in " data-script="https://code.nintendo.com/web-components/styled-button/styled-button.js?v=2022022320" appearance="button" icon="chevron">
+		<span slot="label"> Voir la FAQ</span>
+		
+	</styled-button>
+  
+     </a>
+
+
+</div>
+
+
+
+    </div>
+</div></div>
+
+
+    
+    
+    <div class="rich-text">
+
+
+
+<div data-stylesheet="/apps/noa/components/modular/rich-text/rich-text.css?v=2022022320" class="margin-y-2 dark constrained async fade-in">
+
+    
+    
+    
+    
+
+    <p><span class="legal">* Prix de détail suggéré par le fabricant. Le prix réel peut varier. Contactez votre détaillant pour plus de détails.</span></p>
+
+</div>
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+    
+    
+    <div class="html-component">
+    
+        <style>
+.center-stage-image {
+    border: 1px solid #c8c8c8;
+    border-top: none;
+}
+@media (max-width: 768px) {
+    #hardware-grid .grid-spacer {
+        display: none;
+    }
+}
+
+</style>
+    
+    
+    
+
+
+
+
+    
+
+</div>
+
+
+
+    </div>
+</div></section>
+
+
+
+		</main>
+		
+		
+			<div id="ncom-trimmings" data-locale="fr-CA"></div>
+			<script src="https://media.nintendo.com/share/react-trimmings/main.js" defer="defer"></script>
+		
+		
+	
+	
+	<script src="https://code.nintendo.com/web-components/loading-indicator/loading-indicator.js?v=2022022320" type="module"></script>
+
+	
+	<script src="https://media.nintendo.com/share/nclood/stable/fr-ca/bundles/all.min.js?v=2022022320"></script>
+
+	
+	<script src="/apps/noa/scripts/global.js?v=2022022320" type="module"></script>
+
+	
+	<script src="https://code.nintendo.com/web-components/recommendation-slider/recommendation-slider.js?v=2022022320" async type="module"></script>
+
+
+	</body>
+</html>

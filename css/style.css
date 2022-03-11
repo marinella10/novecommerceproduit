@@ -1,0 +1,31 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:red!important;
+}
+
+
+
+h4{
+    padding-top:40px;
+}
+
+/*formulaire*/
+input#email.formulaire-input {
+    border-radius: 20px;
+    background-color:pink;
+}
+
+input#passeword.formulaire-input {
+    border-radius: 20px;
+    background-color:rgb(245, 118, 1);
+
+}
+
+button.deconnexion {
+    border-radius:20px;
+    background-color:yellow;
+
+}
