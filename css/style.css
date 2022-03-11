@@ -18,6 +18,11 @@ color:black;
 
 } 
 /*formulaire*/
+
+.formulaire{
+    text-align:center;
+    padding-top:70px;
+}
 input#email.formulaire-input {
     border-radius: 20px;
     background-color:pink;

@@ -38,7 +38,7 @@
 <form id="formulaire-connexion" method="post">
 
 
-
+<div class="formulaire">
 <div class="mb-3">
 <label for="email" class="formulaire-label">Email</label>
 <input type="email" class="formulaire-input" id="email" name="email" required>
@@ -48,13 +48,12 @@
 <label for="password" class="formulaire-label">mot de passe</label>
 <input type="password" class="formulaire-input" id="password" name="password" required>
 </div>
+</div>
 
 
 <!--creer un lien-->
 <a class="mdp" href="">mot de passe oublier?</a>
 <br/>
-
-
 
 <!--creer un bouton submit qui appelle le name -->
 <button type="submit" name="btnConnect"class="btn-connexion" class="mt-3 btn-warning">connexion</button>
