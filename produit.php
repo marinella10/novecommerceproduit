@@ -53,6 +53,8 @@ try {
 */
 //Instance de la classe PDO (Php Data Object)
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+// ci- dessous vous etes connectés à PDO est caché en utilisant un commmentaire en php
 //echo "<p class='container alert alert-success text-center'>Vous êtes connnectez à PDO My SQL</p>";
 
 } catch (PDOException $e) {
