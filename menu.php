@@ -24,22 +24,47 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">PRODUITS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link"  href="administrateur
+          .php">ADMINSITRATEURS</a>
         </li>
       </ul>
+      <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">RECHERCHER</button>
+            </form>
     </div>
   </div>
 </nav>
 
+
+
+
+
+
+
+<?php
+//Deconnexion et destruction de la session $_SESSION['email']
+function deconnexion(){
+    var_dump("hello");
+    echo "elloo";
+    session_unset();
+    session_destroy();
+    header('Location: ../index.php');
+}
+
+//Click sur le bouton de deconnexion
+if(isset($_POST['btn-deconnexion'])){
+    deconnexion();
+
+
+}else{
+echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
+header('Location: ../index.php');
+}
+?>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

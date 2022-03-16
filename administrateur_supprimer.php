@@ -5,13 +5,9 @@ if(isset($_SESSION["email"])){
     echo "Bienvenue : " . $_SESSION["email"];
     ?>
    
-    
-  
-    
-
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,16 +32,17 @@ if(isset($_SESSION["email"])){
 
 
 <form method="post">
-    <p class="text-center text-danger">SUPPRIMER LE PRODUIT</p>
-    <p class="text-center text-danger"><?= $details['nom_produit'] ?></p>
-    <p class="text-center text-danger"><?= $details['descripttion_produit'] ?></p>
+    <p class="text-center text-danger">SUPPRIMER L'ADMINISTRATEUR</p>
+    <p class="text-center text-danger"><?= $details['id_users'] ?></p>
+    <p class="text-center text-danger"><?= $details['mail'] ?></p>
+    <p class="text-center text-danger"><?= $details['password'] ?></p>
     <p class="text-center text-danger">
         <img src="<?= $details['image_produit'] ?>" class="img-thumbnail" alt="" title="" width="200"/>
     </p>
 
     <div class="d-flex justify-center"> 
     <button type="submit" name="btn-deconnexion">DECONNEXION</button>
-    <a href="produit.php" class="btn btn-primary">Annuler</a>
+    <a href="administrateur.php" class="btn btn-primary">Annuler</a>
 
     </div>
 
@@ -77,25 +74,25 @@ echo "<p class='container alert alert-success text-center'>Vous êtes connnectez
 }
 
 if (isset($_POST['btn-supprimer']));
-//ecrire une requete sql qui supprime votre produit 
-$sql ='DELETE FROM produits WHERE id_produits= ?';
+//ecrire une requete sql qui supprime votre administrateur
+$sql ='DELETE FROM utilisateur WHERE id_users= ?';
 //Créer une requète préparée pour lutter contre les injection sql
 
 //créer une requête préparée pour lutter contre les injections SQL
 $supp = $dbh->prepare($sql);
 
-//Récup de id du produit du produit
-$idProduit = $_GET['id_produit'];
+//Récup de id du l'administrateur du site
+$idProduit = $_GET['id_users'];
 
 //lié les paramétres du bouton à la requète SQL 
-$supp->bindParam (1, $idProduit);
+$supp->bindParam (1, $idusers);
 $supp->execute();
 
 if($supp){
-    echo "<p class='container alert alert-success'>Votre produit a bien été supprimer!</p>";
+    echo "<p class='container alert alert-success'> L'utilisateur a bien été supprimer!</p>";
     echo "<div class='container'><a  href='produit.php' class='mt-3 btn-success'>RETOUR</a></div>";
 
-    // On cache les datails du produit avec du CSS
+    // On cache les datails de l'administrateur avec du CSS
     ?>
         <style>
             #form-delete {
@@ -105,8 +102,8 @@ if($supp){
       <?php
     }else{
         //Sinon message d'erreur et on recomence
-        echo "<p class='alert alert-danger'>Erreur lors de la supression du produit !</p>";
-        echo "<div class='container'><a href='produits.php' class='mt-3 btn btn-success'>RETOUR</a></div>";
+        echo "<p class='alert alert-danger'>Erreur lors de la supression de l'administrateur!</p>";
+        echo "<div class='container'><a href='administrateur.php' class='mt-3 btn btn-success'>RETOUR</a></div>";
     }
 
 }

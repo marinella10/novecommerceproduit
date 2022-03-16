@@ -55,12 +55,36 @@ try {
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // ci- dessous vous etes connectés à PDO est caché en utilisant un commmentaire en php
+
+
 //echo "<p class='container alert alert-success text-center'>Vous êtes connnectez à PDO My SQL</p>";
 
 } catch (PDOException $e) {
     print "erreur!: " .$e->getMessage() . "<br/>";
     die();
 }
+
+
+    //Deconnexion et destruction de la session $_SESSION['email']
+    function deconnexion(){
+        var_dump("hello");
+        echo "elloo";
+        session_unset();
+        session_destroy();
+        header('Location: index.php');
+    }
+
+    //Click sur le bouton de deconnexion
+    if(isset($_POST['btn-deconnexion'])){
+        deconnexion();
+    }
+
+}else{
+    echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
+    header('Location: index.php');
+}
+
+
 
 if ($dbh){
     //Requète SQL de selection des produits
@@ -156,8 +180,8 @@ if ($dbh){
                     <div class="container-fluid d-flex justify-content-center py-3">
 
                    <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-success">Détails</a>
-                   <
-                       ="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-warning">Editer</>
+                   
+                    <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-warning">Editer</a>
                    <a href="produit_details.php?id_produit=<?= $produit['id_produit'] ?>" class="mt-2 btn btn-danger">Supprimer</a>
 
                     </div>
@@ -175,27 +199,6 @@ if ($dbh){
    
  
   
-<?php
-    //Deconnexion et destruction de la session $_SESSION['email']
-    function deconnexion(){
-        var_dump("hello");
-        echo "elloo";
-        session_unset();
-        session_destroy();
-        header('Location: index.php');
-    }
-
-    //Click sur le bouton de deconnexion
-    if(isset($_POST['btn-deconnexion'])){
-        deconnexion();
-    }
-
-}else{
-    echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
-    header('Location: index.php');
-}
-
-?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
