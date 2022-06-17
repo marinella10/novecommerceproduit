@@ -30,105 +30,53 @@ if(isset($_SESSION["email"])){
 </header>
 <body>
 
-
-<form method="post">
-    <p class="text-center text-danger">SUPPRIMER L'ADMINISTRATEUR</p>
-    <p class="text-center text-danger"><?= $details['id_users'] ?></p>
-    <p class="text-center text-danger"><?= $details['mail'] ?></p>
-    <p class="text-center text-danger"><?= $details['password'] ?></p>
-    <p class="text-center text-danger">
-        <img src="<?= $details['image_produit'] ?>" class="img-thumbnail" alt="" title="" width="200"/>
-    </p>
-
-    <div class="d-flex justify-center"> 
-    <button type="submit" name="btn-deconnexion">DECONNEXION</button>
-    <a href="administrateur.php" class="btn btn-primary">Annuler</a>
-
-    </div>
-
-</form>
-
 <?php
-// connexion de base de donnée ecomerce via PDO
-// Les variables de phpmyadmin
-$user = "root";
-$pass = "";
-
-//test d'erreur
 try {
-     //Instance de la classe PDO (Php Data Object)
-     $dbh = new PDO('mysql:host=localhost;dbname=ecommerce', $user, $pass);
-/*
-* PHP Data Objects est une extension définissant l'interface pour accéder à une base de données avec php. elle est orientée objet, la clase s'appelant PDO.
-*/
-//Instance de la classe PDO (Php Data Object)
-$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-echo "<p class='container alert alert-success text-center'>Vous êtes connnectez à PDO My SQL</p>";
+    $db=new PDO("mysql:host=localhost;dbname=ecommerce;charset=UTF8", "root", "" );
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "vous etes connectés";
 
-
-
-
-} catch (PDOException $e) {
-    print "erreur!: " .$e->getMessage() . "<br/>";
+}catch(PDOException $exception){
+    echo "erreur de connection" .$exception->getMessage();
     die();
 }
 
-if (isset($_POST['btn-supprimer']));
-//ecrire une requete sql qui supprime votre administrateur
-$sql ='DELETE FROM utilisateur WHERE id_users= ?';
-//Créer une requète préparée pour lutter contre les injection sql
+//Requète SQL
 
-//créer une requête préparée pour lutter contre les injections SQL
-$supp = $dbh->prepare($sql);
+$sql = "DELETE FROM utilisateur WHERE id_users = ?";
 
-//Récup de id du l'administrateur du site
-$idProduit = $_GET['id_users'];
-
-//lié les paramétres du bouton à la requète SQL 
-$supp->bindParam (1, $idusers);
-$supp->execute();
-
-if($supp){
-    echo "<p class='container alert alert-success'> L'utilisateur a bien été supprimer!</p>";
-    echo "<div class='container'><a  href='produit.php' class='mt-3 btn-success'>RETOUR</a></div>";
-
-    // On cache les datails de l'administrateur avec du CSS
-    ?>
-        <style>
-            #form-delete {
-                display: none;
-            }
-        </styles>
-      <?php
-    }else{
-        //Sinon message d'erreur et on recomence
-        echo "<p class='alert alert-danger'>Erreur lors de la supression de l'administrateur!</p>";
-        echo "<div class='container'><a href='administrateur.php' class='mt-3 btn btn-success'>RETOUR</a></div>";
-    }
-
-}
-
-
-
-//Deconnexion et destruction de la session $_SESSION['email']
-function deconnexion(){
-    var_dump("hello");
-    echo "elloo";
-    session_unset();
-    session_destroy();
-    header('Location: ../index.php');
-}
-
-//Click sur le bouton de deconnexion
-if(isset($_POST['btn-deconnexion'])){
-    deconnexion();
-
-
-}else{
-echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
-header('Location: ../index.php');
-}
+//Stock et Recup de id dans l'url avec la super globale GET
+$id = $_GET['id_users'];
+//Requète préparée pour lutter contre les injection SQL
+$delete = $db->prepare($sql);
+//On lie le paramètre de la requète SQL (le ?) a l'id resup dans URL
+$delete->bindParam(1, $id);
+//On execute la requète et retourne un tableau associatif
+$delete->execute();
+//Si ca marche
+if($delete == true){
 ?>
+<div class="container">
+    <?php
+    //message de succès + bouton de retour
+    echo "<p class='alert alert-success'>L'utilisateur a bien été supprimer</p>";
+    echo "<a href='administrateur.php' class='btn btn-warning'>Retour</a>";
+    ?>
+</div>
+<?php
+//Sinon une erreur
+}else{
+    echo "<div class='container'><p class='alert alert-danger'>Erreur lors de la supression de l'administrateur</p></div>";
+    var_dump($delete);
+}
+
+        }else{
+            header("Location: ../index.php");
+        }
+
+        ?>
+
+
 
 </body>
 </html>

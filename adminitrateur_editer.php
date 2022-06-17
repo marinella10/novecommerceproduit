@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 if(isset($_SESSION["email"])){
@@ -25,18 +26,16 @@ if(isset($_SESSION["email"])){
     require_once "menu.php";
     ?>
 </header>
-
-<!--important n,e pas oblier le enctype-->
-<!--Upload de fichier-->
-
-
 <?php
-//Existance de ma superglobale $_FILES-->
+/////////////NE PAS OUBLIER : <form enctype="multipart/form-data">//////////////////
+
+//Upload de fichier
+//Existance de ma superglobale $_FILES
 //<input de type file + attribut name="">
 
 if(isset($_FILES['image_produit'])){
     //Repertoire de destination
-    $repertoireDestination = "image/";
+    $repertoireDestination = "/image/";
     //La photo uploader
     //basename — Retourne le nom de la composante finale d'un chemin
     //dans tableau multi dimmension 1 = image 2 = son nom
@@ -58,7 +57,7 @@ if(isset($_FILES['image_produit'])){
 }
 
 
-//Connexion a la base de donnée ecommerce via PDO
+//Connexion a la base de donnée ecommer via PDO
 //Les variable de phpmyadmin
 $user = "root";
 $pass = "";
@@ -82,39 +81,48 @@ try {
     die();
 }
 
+if($dbh){
     //Requète SQL de selection des produits
-    $sql = "UPDATE `produits` SET `nom_produit`= ?,`descripttion_produit`= ?,`prix_produit`= ?,`stock_produit`= ?,`date_depot`= ?,`image_produit`= ?,`id_vendeur`= ?,`id_categorie`= ? WHERE id_produit = ?";
+    $sql = "INSERT INTO `produits`(`id_produit`, `nom_produit`, `description_produit`, `prix_produit`, `stock_produit`, `date_depot`, `image_produit`) VALUES (?,?,?,?,?,?,?)";
     //Requète préparée = connexion + methode prepare + requete sql
     //Les requètes préparée lutte contre les injections SQL
     //PDO::prepare — Prépare une requête à l'exécution et retourne un objet
-    $update = $dbh->prepare($sql);
+    $insert = $dbh->prepare($sql);
+    //Bindé les paramètre
+    //Liés les paramètre du formulaire a la table phpmyadmin
+    //PDOStatement::bindParam — Lie un paramètre à un nom de variable spécifique
+    $insert->bindParam(1, $_POST['id_produit']);
+    $insert->bindParam(2, $_POST['nom_produit']);
+    $insert->bindParam(3, $_POST['descripttion_produit']);
+    $insert->bindParam(4, $_POST['prix_produit']);
+    $insert->bindParam(5, $_POST['stock_produit']);
+    $insert->bindParam(6, $_POST['date_depot']);
+    $insert->bindParam(7, $_POST['image_produit']);
+
     //executer la requète préparée
     //PDOStatement::execute — Exécute une requête préparée
     //Elle execute la reqète passé dans un tableau de valeur
-    $update->execute(array(
+    $insert->execute(array(
+        $_POST['id_produit'],
         $_POST['nom_produit'],
         $_POST['descripttion_produit'],
         $_POST['prix_produit'],
         $_POST['stock_produit'],
         $_POST['date_depot'],
-        $_POST['image_produit'],
-
-        $_POST['categories'],
-        $_POST['vendeurs'],
-
-        $_GET['id_produit']
+        $_POST['image_produit']
     ));
 
-    if($update){
-        echo "<p class='container alert alert-success'>Votre produit a été mis a jour avec succès !</p>";
-        echo "<div class='text-center'><a href='produits.php' class='container btn btn-success'>Voir mon produit</a></div> ";
+    if($insert){
+        echo "<p class='container alert alert-success'>Votre produit a été ajouté avec succès !</p>";
+        echo "<a href='produit.php?' class='container btn btn-success'>Voir mon produit</a>";
     }else{
         echo "<p class='alert alert-danger'>Erreur lors de l'ajout de produit</p>";
     }
-
-}else{
-    header("Location: ../index.php");
 }
-?>
-</body>
-</html>
+}else{
+    echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
+}
+
+
+
+

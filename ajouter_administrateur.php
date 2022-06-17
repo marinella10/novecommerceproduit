@@ -30,17 +30,14 @@
             </span>
 
 <!--Creation formulaire traitement ajout d'adminitratreur-->
-<div class="container">
+<div class="container" id="form-container">
 <!--ajout de l'attribut enctype qui Permet de telecharger  tous type de fichier (.pdf, .txt, .jpg,.webp, etc...)-->
 
 <form action="traitement_adminitrateur_ajouter.php"  id="form-login" method="post" enctype="multipart/form-data">
     <div class="text-center">
         <img src="image/imageslogoe.jpg" alt="logo e-commerce" title="ecommerce.com">
     </div>
-    <div class="mb-3">
-        <label for="id_users" class="form-label">Identité de l'utilistateur</label>
-        <input type="text" class="form-control" id="id_users" name="id_users" required>
-    </div>
+
 
     <div class="mb-3">
         <label for="email" class="form-label">email</label>
@@ -68,18 +65,15 @@ function deconnexion(){
     echo "elloo";
     session_unset();
     session_destroy();
-    header('Location: ../index.php');
+    header('Location: index.php');
 }
 
 //Click sur le bouton de deconnexion
 if(isset($_POST['btn-deconnexion'])){
     deconnexion();
 
+    }
 
-}else{
-echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
-header('Location: ../index.php');
-}
 ?>
 
 </body>

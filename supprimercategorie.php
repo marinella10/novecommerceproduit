@@ -2,9 +2,9 @@
 session_start();
 
 if(isset($_SESSION["email"])){
-    echo "Bienvenue : " . $_SESSION["email"];
-    ?>
-   
+echo "Bienvenue : " . $_SESSION["email"];
+?>
+
 
 
 <!DOCTYPE html>
@@ -17,16 +17,16 @@ if(isset($_SESSION["email"])){
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 
-<title> PHP CRUD SUPPRIMER</title>
+    <title> PHP CRUD SUPPRIMER</title>
 
     <title>Produit my sql</title>
 </head>
 <body>
 
 <header>
-  <?php require_once 'menu.php'?>
+    <?php require_once 'menu.php'?>
 </header>
 
 
@@ -38,14 +38,14 @@ $pass = "";
 
 //test d'erreur
 try {
-     //Instance de la classe PDO (Php Data Object)
-     $dbh = new PDO('mysql:host=localhost;dbname=ecommerce', $user, $pass);
-/*
-* PHP Data Objects est une extension définissant l'interface pour accéder à une base de données avec php. elle est orientée objet, la clase s'appelant PDO.
-*/
+    //Instance de la classe PDO (Php Data Object)
+    $dbh = new PDO('mysql:host=localhost;dbname=ecommerce', $user, $pass);
+    /*
+    * PHP Data Objects est une extension définissant l'interface pour accéder à une base de données avec php. elle est orientée objet, la clase s'appelant PDO.
+    */
 //Instance de la classe PDO (Php Data Object)
-$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-echo "<p class='container alert alert-success text-center'>Vous êtes connnectez à PDO My SQL</p>";
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "<p class='container alert alert-success text-center'>Vous êtes connnectez à PDO My SQL</p>";
 
 
 } catch (PDOException $e) {
@@ -75,10 +75,10 @@ if ($dbh) {
 <form method="post" id="form-delete">
     <p class="text-center text-danger">SUPPRIMER LE PRODUIT</p>
     <p class="text-center text-success"><?= $details['nom_produit'] ?></p>
-<p class="text-center text-warning"><?= $details['descripttion_produit'] ?></p>
-<p class="text-center text-info">
-    <img src="<?= $details['image_produit'] ?>" class="img-thumbnail" alt="" title="" width="200"/>
-</p>
+    <p class="text-center text-warning"><?= $details['descripttion_produit'] ?></p>
+    <p class="text-center text-info">
+        <img src="<?= $details['image_produit'] ?>" class="img-thumbnail" alt="" title="" width="200"/>
+    </p>
 
     <button type="submit" name="btn-supprimer" class="btn btn-success">confirmer la suppression</button>
 
@@ -93,22 +93,22 @@ if ($dbh) {
 
 <?php
 if(isset($_POST['btn-supprimer'])){
-    //ecrire une requete sql qui supprime votre produit
-    $sql ='DELETE FROM produits WHERE id_produit = ?';
+    //ecrire une requete sql qui supprime votre categorie
+    $sql ='DELETE FROM categorie WHERE id_categorie = ?';
 //Créer une requète préparée pour lutter contre les injection sql
 
 //créer une requête préparée pour lutter contre les injections SQL
     $supp = $dbh->prepare($sql);
 
-//Récup de id du produit du produit
-    $idProduit = $_GET['id_produit'];
+//Récup de id du categorie du categorie
+    $idcategorie = $_GET['id_categorie'];
 
 //lié les paramétres du bouton à la requète SQL
-    $supp->bindParam (1, $idProduit);
+    $supp->bindParam (1, $idcategorie);
     $supp->execute();
 
     if($supp){
-        echo "<p class='container alert alert-success'>Votre produit a bien été supprimer!</p>";
+        echo "<p class='container alert alert-success'>Votre categorie a bien été supprimer!</p>";
         echo "<div class='container'><a  href='produit.php' class='mt-3 btn-success'>RETOUR</a></div>";
 
         // On cache les datails du produit avec du CSS
@@ -220,11 +220,4 @@ if(isset($_POST['btn-deconnexion'])){
 
 </body>
 </html>
-
-  
-
-
-
-  
-
 

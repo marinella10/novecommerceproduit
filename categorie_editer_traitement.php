@@ -82,35 +82,27 @@ try {
     die();
 }
 
-    //Requète SQL de selection des produits
-    $sql = "UPDATE `produits` SET `nom_produit`= ?,`descripttion_produit`= ?,`prix_produit`= ?,`stock_produit`= ?,`date_depot`= ?,`image_produit`= ?,`id_vendeur`= ?,`id_categorie`= ? WHERE id_produit = ?";
-    //Requète préparée = connexion + methode prepare + requete sql
-    //Les requètes préparée lutte contre les injections SQL
-    //PDO::prepare — Prépare une requête à l'exécution et retourne un objet
-    $update = $dbh->prepare($sql);
-    //executer la requète préparée
-    //PDOStatement::execute — Exécute une requête préparée
-    //Elle execute la reqète passé dans un tableau de valeur
-    $update->execute(array(
-        $_POST['nom_produit'],
-        $_POST['descripttion_produit'],
-        $_POST['prix_produit'],
-        $_POST['stock_produit'],
-        $_POST['date_depot'],
-        $_POST['image_produit'],
+//Requète SQL de selection des produits
+$sql = "UPDATE `categorie` SET `type_categorie`= ?, WHERE id_categorie = ?";
+//Requète préparée = connexion + methode prepare + requete sql
+//Les requètes préparée lutte contre les injections SQL
+//PDO::prepare — Prépare une requête à l'exécution et retourne un objet
+$update = $dbh->prepare($sql);
+//executer la requète préparée
+//PDOStatement::execute — Exécute une requête préparée
+//Elle execute la reqète passé dans un tableau de valeur
+$update->execute(array(
+    $_POST['type_categorie'],
 
-        $_POST['categories'],
-        $_POST['vendeurs'],
+    $_GET['id_categorie']
+));
 
-        $_GET['id_produit']
-    ));
-
-    if($update){
-        echo "<p class='container alert alert-success'>Votre produit a été mis a jour avec succès !</p>";
-        echo "<div class='text-center'><a href='produits.php' class='container btn btn-success'>Voir mon produit</a></div> ";
-    }else{
-        echo "<p class='alert alert-danger'>Erreur lors de l'ajout de produit</p>";
-    }
+if($update){
+    echo "<p class='container alert alert-success'>Votre categorie a été mis a jour avec succès !</p>";
+    echo "<div class='text-center'><a href='categories.php' class='container btn btn-success'>Voir ma catégorie</a></div> ";
+}else{
+    echo "<p class='alert alert-danger'>Erreur lors de l'ajout de la catogérie</p>";
+}
 
 }else{
     header("Location: ../index.php");

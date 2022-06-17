@@ -37,18 +37,11 @@ function deconnexion(){
 if(isset($_POST['btn-deconnexion'])){
     deconnexion();
 
-
-}else{
-echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
-header('Location: ../index.php');
 }
+
 ?>
 
-<!--pour télécharger des fichiers de différents formats //Upload de fichier-->
-<form enctype="multipart/form-data">
 
-<!--input de type file + attribut name=""-->
-<imput type="file" class="form-control"
 
 
 <?php
@@ -58,7 +51,7 @@ if(isset($_FILES['image_produit'])){
 
 
     // Variable pour ajouter le repertoire de destination
-    $repertoireDestination = "../assets/img/";
+    $repertoireDestination = "image/";
     //La photo uploader
     
     //  // viariable pour ajouter le repertoire de destination + la composante final d'un chemin(basename) et qui prend en paramettre en tableau associatif multidimentionnel
@@ -78,7 +71,7 @@ if(isset($_FILES['image_produit'])){
         echo "<p class='container alert alert-danger'>Erreur lors du téléchargement de votre fichier !</p>";
     }
 }else{
-    echo "<p class='container alert alert-danger'>Le fichier est invalide seul les format .png, .jpg, .bmp, .svg, .webp sont autorisé !</p>";
+    echo "<p class='container alert alert-warning'>Le fichier est invalide seul les format .png, .jpg, .bmp, .svg, .webp sont autorisé !</p>";
 }
 
 
@@ -106,9 +99,11 @@ try {
     die();
 }
 
+//La requète d'insertion du produit + les 2 cles etrangères (INT entier
+
 if($dbh){
     //Requète SQL de selection des produits
-    $sql = "INSERT INTO `produits`(`id_produit`, `nom_produit`, `description_produit`, `prix_produit`, `stock_produit`, `date_depot`, `image_produit`) VALUES (?,?,?,?,?,?,?)";
+    $sql = "INSERT INTO `produits`(`id_produit`, `nom_produit`, `descripttion_produit`, `prix_produit`, `stock_produit`, `date_depot`, `image_produit`, `id_vendeur`, `id_categorie`) VALUES (?,?,?,?,?,?,?,?,?)";
     //Requète préparée = connexion + methode prepare + requete sql
     //Les requètes préparée lutte contre les injections SQL
     //PDO::prepare — Prépare une requête à l'exécution et retourne un objet
@@ -123,6 +118,8 @@ if($dbh){
     $insert->bindParam(5, $_POST['stock_produit']);
     $insert->bindParam(6, $_POST['date_depot']);
     $insert->bindParam(7, $_POST['image_produit']);
+    $insert->bindParam(8, $_POST['categories']);
+    $insert->bindParam(9, $_POST['vendeurs']);
 
     //executer la requète préparée
     //PDOStatement::execute — Exécute une requête préparée
@@ -134,35 +131,20 @@ if($dbh){
         $_POST['prix_produit'],
         $_POST['stock_produit'],
         $_POST['date_depot'],
-        $_POST['image_produit']
+        $_POST['image_produit'],
+        $_POST['categories'],
+        $_POST['vendeurs']
     ));
+    var_dump($insert);
 
     if($insert){
         echo "<p class='container alert alert-success'>Votre produit a été ajouté avec succès !</p>";
-        echo "<a href='produits.php' class='container btn btn-success'>Voir mon produit</a>";
+        echo "<div class='text-center'><a href='produit.php' class='container btn btn-success'>Voir mon produit</a></div>";
     }else{
         echo "<p class='alert alert-danger'>Erreur lors de l'ajout de produit</p>";
     }
-
-}else{
-    echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
 }
 ?>
-
-
-    ?>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- JavaScript Bundle with Popper -->

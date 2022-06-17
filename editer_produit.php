@@ -3,9 +3,6 @@
 session_start();
 if(isset($_SESSION["email"])){
 
-
-
-    
     //Connexion a la base de donnée ecommer via PDO
 //Les variable de phpmyadmin
     $user = "root";
@@ -32,7 +29,10 @@ if(isset($_SESSION["email"])){
 
     if($dbh){
         //Requète SQL de selection des produits
-        $sql = "SELECT * FROM produits WHERE id_produit = ?";
+        $sql = "SELECT * FROM produits 
+                INNER JOIN categorie ON produits.id_categorie = categorie.id_categorie 
+                INNER JOIN vendeurs ON produits.id_vendeur= vendeurs.id_vendeur
+                WHERE id_produit = ?";
 
         $id_produit = $_GET['id_produit'];
         //Grace a PDO on accède à la methode query()
@@ -87,24 +87,26 @@ if(isset($_SESSION["email"])){
 
             <!--On passe ID pour le traitement-->
 
-            <form action="traitement_editer_produit.php?id_produit=<?= $details['id_produit'] ?>"  id="form-update" method="post" enctype="multipart/form-data">
+            <form action="editer_produit_traitetement.php?id_produit=<?= $details['id_produit'] ?>"  id="form-update" method="post" enctype="multipart/form-data">
                 <h3 class="text-info">EDITER LE PRODUIT</h3>
                 <div class="text-center img-logo">
-                    <img src="../assets/img/logo.png" alt="logo micashop" title="MicaShop.com">
+                    <img src="" alt="logo ecommerce" title="ecommerce.com">
                 </div>
                 <div class="mb-3">
                     <label for="nom_produit" class="form-label">Nom du produit</label>
-                    <input type="text" class="form-control" id="nom_produit" name="nom_produit" placeholder="<?= $details['nom_produit'] ?>" required>
+                    <input type="text" class="form-control" id="nom_produit" name="nom_produit" value="<?= $details['nom_produit'] ?>" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="description_produit" class="form-label">Description</label>
-                    <textarea class="form-control" rows="5" id="description_produit" name="description_produit" placeholder="<?= $details['description_produit'] ?>" required></textarea>
+                    <label for="descripttion_produit" class="form-label">Description</label>
+                    <textarea class="form-control" rows="5" id="descripttion_produit" name="descripttion_produit" value="<?= $details['descripttion_produit'] ?>" required>
+                        <?= $details['nom_produit'] ?>
+                    </textarea>
                 </div>
 
                 <div class="mb-3">
                     <label for="prix_produit" class="form-label">Prix du produit</label>
-                    <input type="number" step="0.01" class="form-control" id="prix_produit" name="prix_produit" placeholder="<?= $details['prix_produit'] ?>" required>
+                    <input type="number" step="0.01" class="form-control" id="prix_produit" name="prix_produit" value="<?= $details['prix_produit'] ?>" required>
                 </div>
 
                 <div class="mb-3">
@@ -125,6 +127,49 @@ if(isset($_SESSION["email"])){
                     <input type="file" class="form-control" id="image_produit" name="image_produit" required placeholder="<?= $details['image_produit'] ?>">
                 </div>
 
+                <div class="mb-3">
+                    <select name="categories">
+                        <?php
+                        $sql="SELECT * FROM categorie";
+                        $categories=$dbh->query($sql);
+                        foreach ($categories as $category){
+
+                            ?>
+                            <option value="<?php echo $category["id_categorie"] ?>">
+                                <?php echo $category["type_categorie"] ?>
+                            </option>
+
+
+
+                            <?php
+
+                        }
+                        ?>
+                    </select>
+                </div>
+
+
+                <div class="mb-3">
+                    <select name="vendeurs">
+                        <?php
+                        $sql="SELECT * FROM vendeurs";
+                        $vendeurs=$dbh->query($sql);
+                        foreach ($vendeurs as $vendeur){
+
+                            ?>
+                            <option value="<?php echo $vendeur ["id_vendeur"] ?>">
+                                <?php echo $vendeur["nom_vendeur"] ?>
+                                <?php echo $vendeur["tel_vendeur"] ?>
+                            </option>
+
+
+                            <?php
+
+                        }
+                        ?>
+                    </select>
+                </div>
+
                 <div class="d-flex justify-content-around">
                     <button type="submit" name="btn-connexion" class="btn btn-warning">Mettre a jour</button>
                     <a href="produits.php" class="btn btn-success">Annuler</a>
@@ -133,7 +178,8 @@ if(isset($_SESSION["email"])){
 
         </div>
     </div>
-   
+    </body>
+    </html>
 
 
     <?php
@@ -153,10 +199,13 @@ if(isset($_SESSION["email"])){
     }
 
 }else{
-    echo "<a href='' class='btn btn-warning'>S'inscrire</a>";
+    header("Location: ../index.php");
 }
 
-?>
-</body>
-</html>
+
+
+
+
+
+
 
