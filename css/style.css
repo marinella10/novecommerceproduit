@@ -1,9 +1,11 @@
 html,body{
     margin: 0;
-    padding: 0;
+    padding:0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    background-color: grey!important;
+    background-color:white;
+    color: black;
+    font-size: 25px;
 }
 
 
@@ -16,7 +18,14 @@ h4{
 color:black;
 
 
-} 
+}
+
+
+.dark-mode {
+    background-color: grey;
+    color: white;
+}
+
 /*formulaire*/
 
 .formulaire{
